@@ -6,7 +6,7 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
 
 
-        ApiCliente apiClienteFiat = new ApiCliente(); // Renomeei para clareza
+        ApiCliente apiClienteFiat = new ApiCliente();
         ApiClienteCripto apiClienteCripto = new ApiClienteCripto();
 
 
@@ -21,7 +21,7 @@ public class Principal {
             while (true) {
                 System.out.println("**************************************************");
                 System.out.println("Bem-vindo ao Conversor Global (Moedas e Criptos)!");
-                System.out.println("\n--- Conversor de Moedas (Fiat) ---");
+                System.out.println("\n--- Conversor de Moedas  ---");
                 System.out.println("1) Converter de Real (BRL) para Moeda Estrangeira");
                 System.out.println("2) Converter de Moeda Estrangeira para Real (BRL)");
                 System.out.println("\n--- Conversor de Criptomoedas ---");
@@ -58,7 +58,7 @@ public class Principal {
                         System.out.printf("R$ %.2f (BRL) equivalem a %.2f (%s)%n", valor, resultado, moedaDestino);
                         break;
 
-                    case 2: // Outra Moeda Fiat -> BRLm.out.println("Escolha a moeda de origem:");
+                    case 2:
                         for (int i = 0; i < moedasFiatAlvo.length; i++) {
                             System.out.println((i + 1) + ") " + moedasFiatAlvo[i]);
                         }

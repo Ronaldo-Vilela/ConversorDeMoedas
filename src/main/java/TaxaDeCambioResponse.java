@@ -4,7 +4,7 @@ import java.util.Map;
 public class TaxaDeCambioResponse {
 
 
-    private String base_code; // Moeda base (ex: "BRL")
+    private String base_code;
 
 
     private Map<String, Double> conversion_rates;
