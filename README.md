@@ -41,39 +41,4 @@ O projeto cumpre todos os requisitos básicos do desafio e vai além, adicionand
     * [**ExchangeRate-API**](https://www.exchangerate-api.com/): Utilizada para obter as cotações das moedas fiduciárias.
     * [**CoinGecko API**](https://www.coingecko.com/api): Utilizada para obter as cotações das criptomoedas.
 
----
 
-## 💻 Como Executar
-
-### Pré-requisitos
-
-* Java JDK 11 (ou superior) instalado.
-* [Maven](https://maven.apache.org/download.cgi) instalado (ou use o Maven Wrapper da sua IDE).
-* Uma **Chave de API (API Key)** da [ExchangeRate-API](https://www.exchangerate-api.com/). O plano gratuito é suficiente.
-
-### Passos para Execução
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
-    ```
-    *(Substitua pelo link do seu repositório)*
-
-2.  **Configure a API Key:**
-    * Abra o projeto na sua IDE (ex: IntelliJ IDEA).
-    * Navegue até o arquivo `src/main/java/ApiCliente.java`.
-    * Substitua a string `"SUA_API_KEY_AQUI"` pela sua chave pessoal:
-        ```java
-        private static final String API_KEY = "SUA_API_KEY_AQUI"; 
-        ```
-
-3.  **Compile e Execute:**
-    * Se estiver usando o IntelliJ, a IDE deve reconhecer o `pom.xml` e baixar o Gson automaticamente.
-    * Clique com o botão direito no arquivo `src/main/java/Principal.java` e selecione **"Run 'Principal.main()'"**.
-
----
-
-## 🕹️ Demonstração (Menu da Aplicação)
-
-Ao executar, a aplicação exibe o seguinte menu:
