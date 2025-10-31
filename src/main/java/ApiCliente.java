@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 public class ApiCliente {
 
 
-    private static final String API_KEY = "4caa8ce565ba17e2032992a1";
+    private static final String API_KEY = "SUA_API_KEY_AQUI";
 
     public TaxaDeCambioResponse buscarTaxas(String moedaBase) throws IOException, InterruptedException {
 
